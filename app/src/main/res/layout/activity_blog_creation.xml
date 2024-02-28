@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="630dp"
+    tools:context=".BlogCreation"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="600dp"
+        android:layout_height="700dp">
+
+    <EditText
+        android:id="@+id/na"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:inputType="text"
+        android:maxLines="1"
+        android:hint="Name "
+        android:textSize="28dp" />
+
+
+    <EditText
+        android:id="@+id/btv1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Blog Title"
+        android:textSize="28dp"
+        android:layout_below="@id/na"
+        android:maxLines="3"
+        android:layout_marginTop="7dp"/>
+
+    <EditText
+        android:id="@+id/btv2"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Blog Content"
+        android:maxLines="18"
+        android:textSize="18dp"
+        android:layout_below="@+id/btv1"/>
+
+    <Button
+        android:id="@+id/btnblog"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btv2"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="Add Blog"
+        android:textColor="@color/white"
+        android:textSize="24dp"></Button>
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

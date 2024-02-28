@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primarycolor"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".splash_activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eye Care"
+        android:gravity="center_horizontal"
+        android:textSize="32dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+        ></TextView>
+    <ProgressBar
+        android:layout_marginTop="39dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:indeterminateTint="@color/white"></ProgressBar>
+
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--creating image view on below line-->
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_above="@id/pckbtn"
+         />
+
+    <!--creating button on below line to pick image-->
+    <Button
+        android:id="@+id/pckbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pckbtn"
+        android:layout_centerInParent="true"
+        android:text="Pick Image"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        app:background="@color/black"
+        app:backgroundTint="@color/black" />
+    <Button
+        android:id="@+id/mdlbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pckbtn"
+        android:layout_marginTop="30dp"
+        android:layout_centerInParent="true"
+        android:text="Submit Image"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="30dp"
+        app:background="@color/accent"
+        app:backgroundTint="@color/accent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mod_con"
+        android:text="YOUR EYE TEST RESULT:
+It will be displayed after submit the image"
+        android:textSize="18dp"
+        android:layout_margin="20dp"
+        android:layout_below="@id/mdlbtn"
+        ></TextView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navi1"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menuitem"
+        app:itemRippleColor="@color/white"
+        >
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</RelativeLayout>

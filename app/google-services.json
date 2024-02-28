@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "159768156168",
+    "project_id": "loginauthentication-8f86c",
+    "storage_bucket": "loginauthentication-8f86c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159768156168:android:2962e025901c91452499bd",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXjMbniGNtUPP1s6w3mCiwixhNEbTDWiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
